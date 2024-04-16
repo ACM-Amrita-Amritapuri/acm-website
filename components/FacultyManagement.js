@@ -42,7 +42,7 @@ export default function FacultyManagement() {
                         mg="sm:mr-0 md:mr-0 lg:mr-24 xl:mr-32"
                     />
                     <FacultyCards
-                        image={require("./../public/images/Priyamam.PNG")}
+                        image={require("./../public/images/Priyamam1.png")}
                         name="Priya M"
                         position="Executive Committee Member"
                         mg="mr-0 sm:mt-9 md:mt-10 lg:mt-0"
