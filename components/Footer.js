@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+
 function Footer() {
   return (
     <div className="p-20 addedbg2 ourobjbg text-white font-light">
@@ -40,14 +42,14 @@ function Footer() {
 
             <ul className="list-none mb-0">
               <li>
-                <a href="/" className="opacity-[70%]">
+                <Link href="/" className="opacity-[70%]">
                   About ACM
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/JoinTeam" className="opacity-[70%]">
+                <Link href="/JoinTeam" className="opacity-[70%]">
                   Join ACM
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="https://www.amrita.edu/campus/amritapuri/" className="opacity-[70%]">

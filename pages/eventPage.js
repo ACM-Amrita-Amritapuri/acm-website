@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Events from "../components/Events/Events";
 import Heading from "../components/Heading";
 import Button from "../components/Button";
+import Image from "next/image";
 
 function eventPage() {
     return (
@@ -24,9 +25,9 @@ function eventPage() {
                 <div className="past-events mt-10 mb-10 min-h-fit flex flex-col">
                     <Heading heading="PAST EVENTS" />
                     <div className="slideshow grid md:grid-rows-1 md:grid-cols-3 grid-rows-1 grid-cols-1 place-items-center">
-                        <img src="/images/pastEvents/1.jpg" alt="Event Image" className="rounded-md max-h-[70%] max-w-[70%]" />
-                        <img src="/images/pastEvents/2.jpg" alt="Event Image" className="rounded-md max-h-[70%] max-w-[70%]" />
-                        <img src="/images/pastEvents/3.jpg" alt="Event Image" className="rounded-md max-h-[70%] max-w-[70%]" />
+                        <Image src="/images/pastEvents/1.jpg" alt="Event Image" className="rounded-md max-h-[70%] max-w-[70%]" />
+                        <Image src="/images/pastEvents/2.jpg" alt="Event Image" className="rounded-md max-h-[70%] max-w-[70%]" />
+                        <Image src="/images/pastEvents/3.jpg" alt="Event Image" className="rounded-md max-h-[70%] max-w-[70%]" />
                     </div>
                     <div className="view-more self-center text-white">
                         <Button message={"View More"} />
