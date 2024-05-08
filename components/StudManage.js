@@ -87,7 +87,7 @@ const StudManage = () => {
             github = "https://github.com/Athulg19"
             imageStyle={{ width: '205px', height: '219px' }}
           />
-          <StudentCard 
+          {/* <StudentCard 
             image={require("./../public/Students/sayanthika.png")}
             name="Sayanthika K R"
             position="Social Media Manager"
@@ -95,7 +95,7 @@ const StudManage = () => {
             Github = "https://github.com/Sayanthikarajesh"
             instagram= "https://instagram.com/sayanthikaaa?igshid=MW5uY2NlbXcyaW01aQ=="
             imageStyle={{ width: '205px', height: '219px' }}
-          />
+          /> */}
 
           <StudentCard 
             image={require("./../public/Students/gautham.png")}
